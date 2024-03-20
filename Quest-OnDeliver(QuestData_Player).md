@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnDeliver(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Player) Method
-A function that is called when the quest is delivered to the player  
+A function that is called when the quest is delivered to a player  
 ```csharp
 protected abstract void OnDeliver(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Player player);
 ```

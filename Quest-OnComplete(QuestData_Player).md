@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnComplete(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Player) Method
-A function that is called when the quest is completed for the player  
+A function that is called when the quest is completed for a player  
 ```csharp
 protected abstract void OnComplete(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Player player);
 ```

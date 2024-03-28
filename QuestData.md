@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework')
 ## QuestData Struct
-Represents data of a quest  
+Represents quest data  
 ```csharp
 public readonly struct QuestData
 ```

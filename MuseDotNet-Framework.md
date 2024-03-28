@@ -18,6 +18,8 @@
 - [Player](./Player.md 'MuseDotNet.Framework.Player')
 - [QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')
 - [TeamData](./TeamData.md 'MuseDotNet.Framework.TeamData')
+- [VotingData](./VotingData.md 'MuseDotNet.Framework.VotingData')
+- [VotingOptionType](./VotingOptionType.md 'MuseDotNet.Framework.VotingOptionType')
 ### Interfaces
 - [IQuest](./IQuest.md 'MuseDotNet.Framework.IQuest')
 - [ITeam](./ITeam.md 'MuseDotNet.Framework.ITeam')
@@ -31,6 +33,8 @@
 - [TeamAttitude](./TeamAttitude.md 'MuseDotNet.Framework.TeamAttitude')
 - [TeamStatus](./TeamStatus.md 'MuseDotNet.Framework.TeamStatus')
 - [TeamSubStatus](./TeamSubStatus.md 'MuseDotNet.Framework.TeamSubStatus')
+- [VotingLogicType](./VotingLogicType.md 'MuseDotNet.Framework.VotingLogicType')
+- [VotingSuccessType](./VotingSuccessType.md 'MuseDotNet.Framework.VotingSuccessType')
 ### Delegates
 - [ActorActiveCallback(bool)](./ActorActiveCallback(bool).md 'MuseDotNet.Framework.ActorActiveCallback(bool)')
 - [ActorCallback(MuseDotNet.Framework.Actor)](./ActorCallback(Actor).md 'MuseDotNet.Framework.ActorCallback(MuseDotNet.Framework.Actor)')

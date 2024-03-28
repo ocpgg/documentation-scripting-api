@@ -26,6 +26,7 @@ public readonly struct Player
 - [SetOnCharacterSpawnedCallback(MuseDotNet.Framework.CharacterCallback)](./Player-SetOnCharacterSpawnedCallback(CharacterCallback).md 'MuseDotNet.Framework.Player.SetOnCharacterSpawnedCallback(MuseDotNet.Framework.CharacterCallback)')
 - [SetOnPlayerSpectatorCallback(MuseDotNet.Framework.PlayerCallback)](./Player-SetOnPlayerSpectatorCallback(PlayerCallback).md 'MuseDotNet.Framework.Player.SetOnPlayerSpectatorCallback(MuseDotNet.Framework.PlayerCallback)')
 - [SetPlayerStart(MuseDotNet.Framework.Actor)](./Player-SetPlayerStart(Actor).md 'MuseDotNet.Framework.Player.SetPlayerStart(MuseDotNet.Framework.Actor)')
+- [SetRespawnDelay(float)](./Player-SetRespawnDelay(float).md 'MuseDotNet.Framework.Player.SetRespawnDelay(float)')
 ### Operators
 - [operator ==(MuseDotNet.Framework.Player, MuseDotNet.Framework.Player)](./Player-op_Equality(Player_Player).md 'MuseDotNet.Framework.Player.op_Equality(MuseDotNet.Framework.Player, MuseDotNet.Framework.Player)')
 - [operator !=(MuseDotNet.Framework.Player, MuseDotNet.Framework.Player)](./Player-op_Inequality(Player_Player).md 'MuseDotNet.Framework.Player.op_Inequality(MuseDotNet.Framework.Player, MuseDotNet.Framework.Player)')

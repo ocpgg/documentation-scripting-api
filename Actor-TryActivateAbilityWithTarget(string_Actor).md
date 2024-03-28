@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Actor](./Actor.md 'MuseDotNet.Framework.Actor')
 ## Actor.TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor) Method
-Attempts to activate an ability using a scripting tag. The actor this is called on must have been granted the ability  
+Attempts to activate an ability with a target if the actor have been granted the ability  
 ```csharp
 public bool TryActivateAbilityWithTarget(string tag, MuseDotNet.Framework.Actor target);
 ```
@@ -13,4 +13,4 @@ public bool TryActivateAbilityWithTarget(string tag, MuseDotNet.Framework.Actor 
   
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
-`true` if the actor has the ability and can activate it or `false` if the ability can not be activated  
+`true` if the actor has the ability and can activate it with a target or `false` if the ability can not be activated  

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework')
 ## TeamData Struct
-Represents data of a team  
+Represents team data  
 ```csharp
 public readonly struct TeamData
 ```
@@ -15,6 +15,7 @@ public readonly struct TeamData
 - [GetHashCode()](./TeamData-GetHashCode().md 'MuseDotNet.Framework.TeamData.GetHashCode()')
 - [GetTeamAttitude(MuseDotNet.Framework.TeamData)](./TeamData-GetTeamAttitude(TeamData).md 'MuseDotNet.Framework.TeamData.GetTeamAttitude(MuseDotNet.Framework.TeamData)')
 - [SetTeamAttitude(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamAttitude)](./TeamData-SetTeamAttitude(TeamData_TeamAttitude).md 'MuseDotNet.Framework.TeamData.SetTeamAttitude(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamAttitude)')
+- [StartVoting(string, string, float, MuseDotNet.Framework.VotingLogicType, MuseDotNet.Framework.VotingSuccessType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType)](./TeamData-StartVoting(string_string_float_VotingLogicType_VotingSuccessType_VotingOptionType_VotingOptionType_VotingOptionType_VotingOptionType).md 'MuseDotNet.Framework.TeamData.StartVoting(string, string, float, MuseDotNet.Framework.VotingLogicType, MuseDotNet.Framework.VotingSuccessType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType, MuseDotNet.Framework.VotingOptionType)')
 ### Operators
 - [operator ==(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamData)](./TeamData-op_Equality(TeamData_TeamData).md 'MuseDotNet.Framework.TeamData.op_Equality(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamData)')
 - [operator !=(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamData)](./TeamData-op_Inequality(TeamData_TeamData).md 'MuseDotNet.Framework.TeamData.op_Inequality(MuseDotNet.Framework.TeamData, MuseDotNet.Framework.TeamData)')

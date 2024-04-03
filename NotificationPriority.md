@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework')
 ## NotificationPriority Enum
-Defines the priority of the notification when displayed as a big notification  
+Defines the priority of notifications  
 ```csharp
 public enum NotificationPriority : System.Byte
 ```

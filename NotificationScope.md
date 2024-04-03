@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework')
 ## NotificationScope Enum
-Defines the scope of players which receive the notification  
+Defines the scope of players for notifications  
 ```csharp
 public enum NotificationScope : System.Byte
 ```

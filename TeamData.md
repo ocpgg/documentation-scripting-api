@@ -2,8 +2,10 @@
 ## TeamData Struct
 Represents team data  
 ```csharp
-public readonly struct TeamData
+public readonly struct TeamData :
+System.IEquatable<MuseDotNet.Framework.TeamData>
 ```
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[TeamData](./TeamData.md 'MuseDotNet.Framework.TeamData')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Constructors
 - [TeamData(MuseDotNet.Framework.MuseType)](./TeamData-TeamData(MuseType).md 'MuseDotNet.Framework.TeamData.TeamData(MuseDotNet.Framework.MuseType)')
 ### Methods

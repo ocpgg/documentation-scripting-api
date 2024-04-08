@@ -2,10 +2,8 @@
 ## QuestData Struct
 Represents quest data  
 ```csharp
-public readonly struct QuestData :
-System.IEquatable<MuseDotNet.Framework.QuestData>
+public readonly struct QuestData
 ```
-Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Constructors
 - [QuestData(MuseDotNet.Framework.MuseType)](./QuestData-QuestData(MuseType).md 'MuseDotNet.Framework.QuestData.QuestData(MuseDotNet.Framework.MuseType)')
 ### Properties

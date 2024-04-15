@@ -32,6 +32,7 @@ public readonly struct Actor
 - [RemoveInventoryItems()](./Actor-RemoveInventoryItems().md 'MuseDotNet.Framework.Actor.RemoveInventoryItems()')
 - [RemoveTag(string)](./Actor-RemoveTag(string).md 'MuseDotNet.Framework.Actor.RemoveTag(string)')
 - [SetActive(bool)](./Actor-SetActive(bool).md 'MuseDotNet.Framework.Actor.SetActive(bool)')
+- [SetCharacterAppearance(string)](./Actor-SetCharacterAppearance(string).md 'MuseDotNet.Framework.Actor.SetCharacterAppearance(string)')
 - [SetCharacterDefinition(string, bool)](./Actor-SetCharacterDefinition(string_bool).md 'MuseDotNet.Framework.Actor.SetCharacterDefinition(string, bool)')
 - [SetColor(MuseDotNet.Framework.LinearColor)](./Actor-SetColor(LinearColor).md 'MuseDotNet.Framework.Actor.SetColor(MuseDotNet.Framework.LinearColor)')
 - [SetHealth(float)](./Actor-SetHealth(float).md 'MuseDotNet.Framework.Actor.SetHealth(float)')

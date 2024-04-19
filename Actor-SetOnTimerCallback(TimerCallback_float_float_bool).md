@@ -24,3 +24,19 @@ If `true`, loops the callback function
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 `true` if the callback set for the actor or `false` if the actor is not appropriate for the callback  
+### Example
+Set a looped timer callback to an actor  
+```csharp
+
+int Iteration = 0;
+bool IsTimerSet = Actor.SetOnTimerCallback(() =>
+{
+	Actor.SetText($"Iteration value: {Iteration++}");
+}, loop: true);
+
+if (IsTimerSet)
+{
+	Debug.Log($"Timer callback is set to {Actor.Name}!"); 
+}
+
+```  

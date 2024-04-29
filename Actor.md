@@ -5,6 +5,7 @@ Represents an in-world actor, such as a character, spawner, volume, or similar
 public readonly struct Actor
 ```
 ### Properties
+- [IsActive](./Actor-IsActive.md 'MuseDotNet.Framework.Actor.IsActive')
 - [IsPlayerControlled](./Actor-IsPlayerControlled.md 'MuseDotNet.Framework.Actor.IsPlayerControlled')
 - [Name](./Actor-Name.md 'MuseDotNet.Framework.Actor.Name')
 - [Team](./Actor-Team.md 'MuseDotNet.Framework.Actor.Team')

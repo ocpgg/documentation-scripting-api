@@ -2,7 +2,7 @@
 ## Muse.SendNotification(string, MuseDotNet.Framework.NotificationScope, MuseDotNet.Framework.NotificationPriority, bool, MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestData) Method
 Sends a notification to players  
 ```csharp
-public static void SendNotification(string formattedMessage, MuseDotNet.Framework.NotificationScope scope, MuseDotNet.Framework.NotificationPriority priority, bool displayAsBigNotification, MuseDotNet.Framework.Player player, MuseDotNet.Framework.QuestData questData=default(MuseDotNet.Framework.QuestData));
+public static void SendNotification(string formattedMessage, MuseDotNet.Framework.NotificationScope scope, MuseDotNet.Framework.NotificationPriority priority, bool displayAsBigNotification, MuseDotNet.Framework.Player player=default(MuseDotNet.Framework.Player), MuseDotNet.Framework.QuestData questData=default(MuseDotNet.Framework.QuestData));
 ```
 #### Parameters
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData)-formattedMessage'></a>
@@ -23,7 +23,7 @@ The option to display the notification as a big notification
   
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData)-player'></a>
 `player` [Player](./Player.md 'MuseDotNet.Framework.Player')  
-The player that is used in the context of the notification  
+The player that is used in the context of the notification with the [Player](./NotificationScope.md#NotificationScope-Player 'MuseDotNet.Framework.NotificationScope.Player'), [Team](./NotificationScope.md#NotificationScope-Team 'MuseDotNet.Framework.NotificationScope.Team'), and [Alliance](./NotificationScope.md#NotificationScope-Alliance 'MuseDotNet.Framework.NotificationScope.Alliance') or `default` otherwise  
   
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData)-questData'></a>
 `questData` [QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')  

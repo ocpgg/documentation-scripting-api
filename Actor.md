@@ -33,6 +33,7 @@ public readonly struct Actor
 - [RemoveFromTeam(MuseDotNet.Framework.TeamData)](./Actor-RemoveFromTeam(TeamData).md 'MuseDotNet.Framework.Actor.RemoveFromTeam(MuseDotNet.Framework.TeamData)')
 - [RemoveInventoryItem(string)](./Actor-RemoveInventoryItem(string).md 'MuseDotNet.Framework.Actor.RemoveInventoryItem(string)')
 - [RemoveInventoryItems()](./Actor-RemoveInventoryItems().md 'MuseDotNet.Framework.Actor.RemoveInventoryItems()')
+- [RemoveInventoryItems(string)](./Actor-RemoveInventoryItems(string).md 'MuseDotNet.Framework.Actor.RemoveInventoryItems(string)')
 - [RemovePlayerRelevancy(MuseDotNet.Framework.Player)](./Actor-RemovePlayerRelevancy(Player).md 'MuseDotNet.Framework.Actor.RemovePlayerRelevancy(MuseDotNet.Framework.Player)')
 - [RemoveTag(string)](./Actor-RemoveTag(string).md 'MuseDotNet.Framework.Actor.RemoveTag(string)')
 - [RemoveTeamRelevancy(MuseDotNet.Framework.TeamData)](./Actor-RemoveTeamRelevancy(TeamData).md 'MuseDotNet.Framework.Actor.RemoveTeamRelevancy(MuseDotNet.Framework.TeamData)')

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Actor](./Actor.md 'MuseDotNet.Framework.Actor')
 ## Actor.SetText(string) Method
-Sets text of the actor, if appropriate  
+Sets the arbitrary text for the actor, if appropriate  
 ```csharp
 public void SetText(string value);
 ```

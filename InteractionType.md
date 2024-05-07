@@ -7,61 +7,65 @@ public enum InteractionType : System.Byte
 ### Fields
 <a name='InteractionType-None'></a>
 `None` 0  
-Generic interaction  
+No interaction  
+  
+<a name='InteractionType-Script'></a>
+`Script` 1  
+Indicates when a custom script handles the interaction  
   
 <a name='InteractionType-PickupItem'></a>
-`PickupItem` 1  
+`PickupItem` 2  
 Indicates when an item is being picked up  
   
 <a name='InteractionType-PickupAndEquipItem'></a>
-`PickupAndEquipItem` 2  
+`PickupAndEquipItem` 3  
 Indicates when an item is being picked up and equipped  
   
 <a name='InteractionType-PickupItemInventory'></a>
-`PickupItemInventory` 3  
+`PickupItemInventory` 4  
 Indicates when an item is being picked up and added to the invetory  
   
 <a name='InteractionType-ApplyEffect'></a>
-`ApplyEffect` 4  
+`ApplyEffect` 5  
 Indicates when an effect is being applied  
   
 <a name='InteractionType-StartCrafting'></a>
-`StartCrafting` 5  
+`StartCrafting` 6  
 Indicates when crafting is being started  
   
 <a name='InteractionType-CancelCrafting'></a>
-`CancelCrafting` 6  
+`CancelCrafting` 7  
 Indicates when crafting is being cancelled  
   
 <a name='InteractionType-SelectCraftingRecipe'></a>
-`SelectCraftingRecipe` 7  
+`SelectCraftingRecipe` 8  
 Indicates when a crafting recipe is being selected  
   
 <a name='InteractionType-ChangeCraftingRecipeCategory'></a>
-`ChangeCraftingRecipeCategory` 8  
+`ChangeCraftingRecipeCategory` 9  
 Indicates when a crafting recipe category is being changed  
   
 <a name='InteractionType-Harvest'></a>
-`Harvest` 9  
+`Harvest` 10  
 Indicates when harvesting is being started  
   
 <a name='InteractionType-DepositHeldItem'></a>
-`DepositHeldItem` 10  
+`DepositHeldItem` 11  
 Indicates when a held item is being deposited  
   
 <a name='InteractionType-RetrieveDepositedItem'></a>
-`RetrieveDepositedItem` 11  
+`RetrieveDepositedItem` 12  
 Indicates when a deposited item is being retrieved  
   
 <a name='InteractionType-DepositBuildingRecipeItems'></a>
-`DepositBuildingRecipeItems` 12  
+`DepositBuildingRecipeItems` 13  
 Indicates when building recipe items are being deposited  
   
 <a name='InteractionType-RevivePlayer'></a>
-`RevivePlayer` 13  
+`RevivePlayer` 14  
 Indicates when a player is being revived  
   
 <a name='InteractionType-OpenInventory'></a>
-`OpenInventory` 14  
+`OpenInventory` 15  
 Indicates when an inventory is being opened  
   

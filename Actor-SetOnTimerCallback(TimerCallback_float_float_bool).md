@@ -36,7 +36,7 @@ bool IsTimerSet = Actor.SetOnTimerCallback(() =>
 
 if (IsTimerSet)
 {
-	Debug.Log($"Timer callback is set to {Actor.Name}!"); 
+	Debug.Log($"Timer callback is set to {Actor.Name}!");
 }
 
 ```  

@@ -2,10 +2,8 @@
 ## VotingData Struct
 Represents voting data  
 ```csharp
-public readonly struct VotingData :
-System.IEquatable<MuseDotNet.Framework.VotingData>
+public readonly struct VotingData
 ```
-Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[VotingData](./VotingData.md 'MuseDotNet.Framework.VotingData')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [Team](./VotingData-Team.md 'MuseDotNet.Framework.VotingData.Team')
 ### Methods

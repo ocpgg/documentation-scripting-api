@@ -2,8 +2,10 @@
 ## Actor Struct
 Represents an in-world actor, such as a character, spawner, volume, or similar  
 ```csharp
-public readonly struct Actor
+public readonly struct Actor :
+System.IEquatable<MuseDotNet.Framework.Actor>
 ```
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Actor](./Actor.md 'MuseDotNet.Framework.Actor')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [IsActive](./Actor-IsActive.md 'MuseDotNet.Framework.Actor.IsActive')
 - [IsPlayerControlled](./Actor-IsPlayerControlled.md 'MuseDotNet.Framework.Actor.IsPlayerControlled')
@@ -15,6 +17,7 @@ public readonly struct Actor
 - [AddTag(string)](./Actor-AddTag(string).md 'MuseDotNet.Framework.Actor.AddTag(string)')
 - [AddTeamRelevancy(MuseDotNet.Framework.TeamData)](./Actor-AddTeamRelevancy(TeamData).md 'MuseDotNet.Framework.Actor.AddTeamRelevancy(MuseDotNet.Framework.TeamData)')
 - [AddToTeam(MuseDotNet.Framework.TeamData)](./Actor-AddToTeam(TeamData).md 'MuseDotNet.Framework.Actor.AddToTeam(MuseDotNet.Framework.TeamData)')
+- [BeginLandingSequence()](./Actor-BeginLandingSequence().md 'MuseDotNet.Framework.Actor.BeginLandingSequence()')
 - [ClearOnTimerCallback()](./Actor-ClearOnTimerCallback().md 'MuseDotNet.Framework.Actor.ClearOnTimerCallback()')
 - [Damage(float)](./Actor-Damage(float).md 'MuseDotNet.Framework.Actor.Damage(float)')
 - [Equals(MuseDotNet.Framework.Actor)](./Actor-Equals(Actor).md 'MuseDotNet.Framework.Actor.Equals(MuseDotNet.Framework.Actor)')
@@ -59,6 +62,7 @@ public readonly struct Actor
 - [SetOnStaminaChangedCallback(MuseDotNet.Framework.CharacterManaChangedCallback)](./Actor-SetOnStaminaChangedCallback(CharacterManaChangedCallback).md 'MuseDotNet.Framework.Actor.SetOnStaminaChangedCallback(MuseDotNet.Framework.CharacterManaChangedCallback)')
 - [SetOnTimerCallback(MuseDotNet.Framework.TimerCallback, float, float, bool)](./Actor-SetOnTimerCallback(TimerCallback_float_float_bool).md 'MuseDotNet.Framework.Actor.SetOnTimerCallback(MuseDotNet.Framework.TimerCallback, float, float, bool)')
 - [SetText(string)](./Actor-SetText(string).md 'MuseDotNet.Framework.Actor.SetText(string)')
+- [StartIgnition()](./Actor-StartIgnition().md 'MuseDotNet.Framework.Actor.StartIgnition()')
 - [TeleportTo(MuseDotNet.Framework.Actor)](./Actor-TeleportTo(Actor).md 'MuseDotNet.Framework.Actor.TeleportTo(MuseDotNet.Framework.Actor)')
 - [TryActivateAbility(string)](./Actor-TryActivateAbility(string).md 'MuseDotNet.Framework.Actor.TryActivateAbility(string)')
 - [TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)](./Actor-TryActivateAbilityWithTarget(string_Actor).md 'MuseDotNet.Framework.Actor.TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)')

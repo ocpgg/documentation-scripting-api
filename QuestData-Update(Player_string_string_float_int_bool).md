@@ -11,19 +11,19 @@ The player
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_bool)-progress'></a>
 `progress` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-The arbitrary text of the quest progress  
+The arbitrary text of the quest progress or `null` to keep the last value  
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_bool)-title'></a>
 `title` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-The arbitrary text of the quest title  
+The arbitrary text of the quest title or `null` to keep the last value  
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_bool)-percentage'></a>
 `percentage` [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'System.Single')  
-The progress bar percentage between `0.0f` and `1.0f` or `-1.0f` to hide the bar  
+The progress bar percentage between `0.0f` and `1.0f` or `-1.0f` to keep the last value  
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_bool)-battleStars'></a>
 `battleStars` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
-The amount of battle stars granted to the player for the completion of the quest or `-1` to hide the label  
+The amount of battle stars granted to the player for the completion of the quest or `-1` to keep the last value  
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_bool)-trivial'></a>
 `trivial` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

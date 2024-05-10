@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')
 ## QuestData.HasPlayer(MuseDotNet.Framework.Player) Method
-Returns `true` if the quest includes a player for progress tracking  
+Returns `true` if the quest has a player  
 ```csharp
 public bool HasPlayer(MuseDotNet.Framework.Player player);
 ```

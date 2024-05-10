@@ -14,6 +14,7 @@ public readonly struct QuestData
 - [Deliver(MuseDotNet.Framework.Player)](./QuestData-Deliver(Player).md 'MuseDotNet.Framework.QuestData.Deliver(MuseDotNet.Framework.Player)')
 - [Equals(MuseDotNet.Framework.QuestData)](./QuestData-Equals(QuestData).md 'MuseDotNet.Framework.QuestData.Equals(MuseDotNet.Framework.QuestData)')
 - [Equals(object)](./QuestData-Equals(object).md 'MuseDotNet.Framework.QuestData.Equals(object)')
+- [ForEachQuestPlayer(MuseDotNet.Framework.PlayerCallback)](./QuestData-ForEachQuestPlayer(PlayerCallback).md 'MuseDotNet.Framework.QuestData.ForEachQuestPlayer(MuseDotNet.Framework.PlayerCallback)')
 - [GetHashCode()](./QuestData-GetHashCode().md 'MuseDotNet.Framework.QuestData.GetHashCode()')
 - [HasPlayer(MuseDotNet.Framework.Player)](./QuestData-HasPlayer(Player).md 'MuseDotNet.Framework.QuestData.HasPlayer(MuseDotNet.Framework.Player)')
 - [Reward(MuseDotNet.Framework.Player)](./QuestData-Reward(Player).md 'MuseDotNet.Framework.QuestData.Reward(MuseDotNet.Framework.Player)')

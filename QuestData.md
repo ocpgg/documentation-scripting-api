@@ -11,6 +11,7 @@ public readonly struct QuestData
 ### Methods
 - [Cancel(MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestCancellationType)](./QuestData-Cancel(Player_QuestCancellationType).md 'MuseDotNet.Framework.QuestData.Cancel(MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestCancellationType)')
 - [Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup)](./QuestData-Complete(Player_MatchConditionGroup).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup)')
+- [Complete(MuseDotNet.Framework.Player[])](./QuestData-Complete(Player--).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player[])')
 - [Deliver(MuseDotNet.Framework.Player)](./QuestData-Deliver(Player).md 'MuseDotNet.Framework.QuestData.Deliver(MuseDotNet.Framework.Player)')
 - [Equals(MuseDotNet.Framework.QuestData)](./QuestData-Equals(QuestData).md 'MuseDotNet.Framework.QuestData.Equals(MuseDotNet.Framework.QuestData)')
 - [Equals(object)](./QuestData-Equals(object).md 'MuseDotNet.Framework.QuestData.Equals(object)')

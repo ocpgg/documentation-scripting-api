@@ -62,7 +62,7 @@ public readonly struct Actor
 - [SetOnStaminaChangedCallback(MuseDotNet.Framework.CharacterManaChangedCallback)](./Actor-SetOnStaminaChangedCallback(CharacterManaChangedCallback).md 'MuseDotNet.Framework.Actor.SetOnStaminaChangedCallback(MuseDotNet.Framework.CharacterManaChangedCallback)')
 - [SetOnTimerCallback(MuseDotNet.Framework.TimerCallback, float, float, bool)](./Actor-SetOnTimerCallback(TimerCallback_float_float_bool).md 'MuseDotNet.Framework.Actor.SetOnTimerCallback(MuseDotNet.Framework.TimerCallback, float, float, bool)')
 - [SetText(string)](./Actor-SetText(string).md 'MuseDotNet.Framework.Actor.SetText(string)')
-- [StartIgnition()](./Actor-StartIgnition().md 'MuseDotNet.Framework.Actor.StartIgnition()')
+- [StartIgnition(MuseDotNet.Framework.Player)](./Actor-StartIgnition(Player).md 'MuseDotNet.Framework.Actor.StartIgnition(MuseDotNet.Framework.Player)')
 - [TeleportTo(MuseDotNet.Framework.Actor)](./Actor-TeleportTo(Actor).md 'MuseDotNet.Framework.Actor.TeleportTo(MuseDotNet.Framework.Actor)')
 - [TryActivateAbility(string)](./Actor-TryActivateAbility(string).md 'MuseDotNet.Framework.Actor.TryActivateAbility(string)')
 - [TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)](./Actor-TryActivateAbilityWithTarget(string_Actor).md 'MuseDotNet.Framework.Actor.TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)')

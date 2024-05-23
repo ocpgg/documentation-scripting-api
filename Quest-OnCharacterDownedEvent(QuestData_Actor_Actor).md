@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnCharacterDownedEvent(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Actor, MuseDotNet.Framework.Actor) Method
-A function that is called when a character is knocked down  
+A function that is called when a character is downed and starts to bleed  
 ```csharp
 protected virtual void OnCharacterDownedEvent(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Actor instigatorCharacter, MuseDotNet.Framework.Actor downedCharacter);
 ```

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')
 ## QuestData.Complete(MuseDotNet.Framework.Player[]) Method
-Completes the quest for players  
+Completes the quest for players that will be the winners of the match, if enabled  
 ```csharp
 public bool Complete(MuseDotNet.Framework.Player[] players);
 ```

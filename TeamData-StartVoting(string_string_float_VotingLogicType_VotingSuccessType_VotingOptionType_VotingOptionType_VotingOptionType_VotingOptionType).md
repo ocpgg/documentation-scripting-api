@@ -60,7 +60,7 @@ VotingData StealOrShareVoting = Player.Team.StartVoting
 
 if (StealOrShareVoting != default)
 {
-	Debug.Log($"Voting was initiated by team {StealOrShareVoting.Team.GetTitle()}!"); 
+	Debug.Log($"Voting was initiated by team {StealOrShareVoting.Team.GetTitle()}!");
 }
 
 ```  

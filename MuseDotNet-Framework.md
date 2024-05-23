@@ -31,6 +31,7 @@
 - [NotificationScope](./NotificationScope.md 'MuseDotNet.Framework.NotificationScope')
 - [QuestCancellationType](./QuestCancellationType.md 'MuseDotNet.Framework.QuestCancellationType')
 - [TeamAttitude](./TeamAttitude.md 'MuseDotNet.Framework.TeamAttitude')
+- [TeamAttitudeRequestsPolicy](./TeamAttitudeRequestsPolicy.md 'MuseDotNet.Framework.TeamAttitudeRequestsPolicy')
 - [TeamStatus](./TeamStatus.md 'MuseDotNet.Framework.TeamStatus')
 - [TeamSubStatus](./TeamSubStatus.md 'MuseDotNet.Framework.TeamSubStatus')
 - [VotingLogicType](./VotingLogicType.md 'MuseDotNet.Framework.VotingLogicType')

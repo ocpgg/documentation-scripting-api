@@ -10,7 +10,7 @@ public readonly struct Actor
 - [Name](./Actor-Name.md 'MuseDotNet.Framework.Actor.Name')
 - [Team](./Actor-Team.md 'MuseDotNet.Framework.Actor.Team')
 ### Methods
-- [AddInventoryItem(string)](./Actor-AddInventoryItem(string).md 'MuseDotNet.Framework.Actor.AddInventoryItem(string)')
+- [AddInventoryItem(string, int)](./Actor-AddInventoryItem(string_int).md 'MuseDotNet.Framework.Actor.AddInventoryItem(string, int)')
 - [AddPlayerRelevancy(MuseDotNet.Framework.Player)](./Actor-AddPlayerRelevancy(Player).md 'MuseDotNet.Framework.Actor.AddPlayerRelevancy(MuseDotNet.Framework.Player)')
 - [AddTag(string)](./Actor-AddTag(string).md 'MuseDotNet.Framework.Actor.AddTag(string)')
 - [AddTeamRelevancy(MuseDotNet.Framework.TeamData)](./Actor-AddTeamRelevancy(TeamData).md 'MuseDotNet.Framework.Actor.AddTeamRelevancy(MuseDotNet.Framework.TeamData)')

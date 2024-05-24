@@ -5,7 +5,9 @@ Represents a player state that persists throughout a session
 public readonly struct Player
 ```
 ### Properties
+- [InitialBattleStars](./Player-InitialBattleStars.md 'MuseDotNet.Framework.Player.InitialBattleStars')
 - [Name](./Player-Name.md 'MuseDotNet.Framework.Player.Name')
+- [SessionBattleStars](./Player-SessionBattleStars.md 'MuseDotNet.Framework.Player.SessionBattleStars')
 - [Team](./Player-Team.md 'MuseDotNet.Framework.Player.Team')
 ### Methods
 - [AddTag(string)](./Player-AddTag(string).md 'MuseDotNet.Framework.Player.AddTag(string)')

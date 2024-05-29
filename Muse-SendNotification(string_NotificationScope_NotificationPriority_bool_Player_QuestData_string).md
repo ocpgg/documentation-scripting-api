@@ -2,7 +2,7 @@
 ## Muse.SendNotification(string, MuseDotNet.Framework.NotificationScope, MuseDotNet.Framework.NotificationPriority, bool, MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestData, string) Method
 Sends a notification to players  
 ```csharp
-public static void SendNotification(string formattedMessage, MuseDotNet.Framework.NotificationScope scope, MuseDotNet.Framework.NotificationPriority priority, bool displayAsBigNotification, MuseDotNet.Framework.Player player=default(MuseDotNet.Framework.Player), MuseDotNet.Framework.QuestData questData=default(MuseDotNet.Framework.QuestData), string msgKey=null);
+public static void SendNotification(string formattedMessage, MuseDotNet.Framework.NotificationScope scope, MuseDotNet.Framework.NotificationPriority priority, bool displayAsBigNotification, MuseDotNet.Framework.Player player=default(MuseDotNet.Framework.Player), MuseDotNet.Framework.QuestData questData=default(MuseDotNet.Framework.QuestData), string messageKey=null);
 ```
 #### Parameters
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData_string)-formattedMessage'></a>
@@ -29,9 +29,9 @@ The player that is used in the context of the notification with the [Player](./N
 `questData` [QuestData](./QuestData.md 'MuseDotNet.Framework.QuestData')  
 The quest that is used in the context of the notification with the [Quest](./NotificationScope.md#NotificationScope-Quest 'MuseDotNet.Framework.NotificationScope.Quest') or `default` otherwise  
   
-<a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData_string)-msgKey'></a>
-`msgKey` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-The key used for updating currently playing or queued big notifications, or `default` otherwise  
+<a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData_string)-messageKey'></a>
+`messageKey` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
+The key used for updating currently playing or queued big notifications  
   
 ### Example
 Send a notification to a player  

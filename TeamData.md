@@ -6,6 +6,8 @@ public readonly struct TeamData
 ```
 ### Constructors
 - [TeamData(MuseDotNet.Framework.MuseType)](./TeamData-TeamData(MuseType).md 'MuseDotNet.Framework.TeamData.TeamData(MuseDotNet.Framework.MuseType)')
+### Properties
+- [PlayerCount](./TeamData-PlayerCount.md 'MuseDotNet.Framework.TeamData.PlayerCount')
 ### Methods
 - [Equals(MuseDotNet.Framework.TeamData)](./TeamData-Equals(TeamData).md 'MuseDotNet.Framework.TeamData.Equals(MuseDotNet.Framework.TeamData)')
 - [Equals(object)](./TeamData-Equals(object).md 'MuseDotNet.Framework.TeamData.Equals(object)')

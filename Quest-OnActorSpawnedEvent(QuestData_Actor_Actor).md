@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnActorSpawnedEvent(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Actor, MuseDotNet.Framework.Actor) Method
-A function that is called when an actor spawns the world  
+A function that is called when an actor spawns in the world  
 ```csharp
 protected virtual void OnActorSpawnedEvent(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Actor spawnerActor, MuseDotNet.Framework.Actor spawnedActor);
 ```

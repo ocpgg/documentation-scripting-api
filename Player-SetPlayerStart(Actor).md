@@ -2,9 +2,11 @@
 ## Player.SetPlayerStart(MuseDotNet.Framework.Actor) Method
 Sets the player start actor for the player  
 ```csharp
-public void SetPlayerStart(MuseDotNet.Framework.Actor actor);
+public bool SetPlayerStart(MuseDotNet.Framework.Actor actor);
 ```
 #### Parameters
 <a name='MuseDotNet-Framework-Player-SetPlayerStart(MuseDotNet-Framework-Actor)-actor'></a>
 `actor` [Actor](./Actor.md 'MuseDotNet.Framework.Actor')  
   
+#### Returns
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

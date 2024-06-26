@@ -2,8 +2,10 @@
 ## Actor Struct
 Represents an in-world actor, such as a character, spawner, volume, or similar  
 ```csharp
-public readonly struct Actor
+public readonly struct Actor :
+System.IEquatable<MuseDotNet.Framework.Actor>
 ```
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Actor](./Actor.md 'MuseDotNet.Framework.Actor')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [IsActive](./Actor-IsActive.md 'MuseDotNet.Framework.Actor.IsActive')
 - [IsPlayerControlled](./Actor-IsPlayerControlled.md 'MuseDotNet.Framework.Actor.IsPlayerControlled')
@@ -31,6 +33,8 @@ public readonly struct Actor
 - [HasEquippedItem(string)](./Actor-HasEquippedItem(string).md 'MuseDotNet.Framework.Actor.HasEquippedItem(string)')
 - [HasInventoryItem(string)](./Actor-HasInventoryItem(string).md 'MuseDotNet.Framework.Actor.HasInventoryItem(string)')
 - [HasTag(string)](./Actor-HasTag(string).md 'MuseDotNet.Framework.Actor.HasTag(string)')
+- [IsShrineDestroyed()](./Actor-IsShrineDestroyed().md 'MuseDotNet.Framework.Actor.IsShrineDestroyed()')
+- [IsShrineLit()](./Actor-IsShrineLit().md 'MuseDotNet.Framework.Actor.IsShrineLit()')
 - [Kill()](./Actor-Kill().md 'MuseDotNet.Framework.Actor.Kill()')
 - [Remove()](./Actor-Remove().md 'MuseDotNet.Framework.Actor.Remove()')
 - [RemoveFromTeam(MuseDotNet.Framework.TeamData)](./Actor-RemoveFromTeam(TeamData).md 'MuseDotNet.Framework.Actor.RemoveFromTeam(MuseDotNet.Framework.TeamData)')
@@ -64,6 +68,7 @@ public readonly struct Actor
 - [SetText(string)](./Actor-SetText(string).md 'MuseDotNet.Framework.Actor.SetText(string)')
 - [StartIgnition(MuseDotNet.Framework.Player)](./Actor-StartIgnition(Player).md 'MuseDotNet.Framework.Actor.StartIgnition(MuseDotNet.Framework.Player)')
 - [TeleportTo(MuseDotNet.Framework.Actor)](./Actor-TeleportTo(Actor).md 'MuseDotNet.Framework.Actor.TeleportTo(MuseDotNet.Framework.Actor)')
+- [ToggleShrine()](./Actor-ToggleShrine().md 'MuseDotNet.Framework.Actor.ToggleShrine()')
 - [TryActivateAbility(string)](./Actor-TryActivateAbility(string).md 'MuseDotNet.Framework.Actor.TryActivateAbility(string)')
 - [TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)](./Actor-TryActivateAbilityWithTarget(string_Actor).md 'MuseDotNet.Framework.Actor.TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor)')
 ### Operators

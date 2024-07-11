@@ -24,6 +24,7 @@
 - [IQuest](./IQuest.md 'MuseDotNet.Framework.IQuest')
 - [ITeam](./ITeam.md 'MuseDotNet.Framework.ITeam')
 ### Enums
+- [ActorType](./ActorType.md 'MuseDotNet.Framework.ActorType')
 - [InteractionType](./InteractionType.md 'MuseDotNet.Framework.InteractionType')
 - [LogLevel](./LogLevel.md 'MuseDotNet.Framework.LogLevel')
 - [MatchConditionGroup](./MatchConditionGroup.md 'MuseDotNet.Framework.MatchConditionGroup')

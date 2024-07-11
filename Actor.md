@@ -2,15 +2,14 @@
 ## Actor Struct
 Represents an in-world actor, such as a character, spawner, volume, or similar  
 ```csharp
-public readonly struct Actor :
-System.IEquatable<MuseDotNet.Framework.Actor>
+public readonly struct Actor
 ```
-Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Actor](./Actor.md 'MuseDotNet.Framework.Actor')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [IsActive](./Actor-IsActive.md 'MuseDotNet.Framework.Actor.IsActive')
 - [IsPlayerControlled](./Actor-IsPlayerControlled.md 'MuseDotNet.Framework.Actor.IsPlayerControlled')
 - [Name](./Actor-Name.md 'MuseDotNet.Framework.Actor.Name')
 - [Team](./Actor-Team.md 'MuseDotNet.Framework.Actor.Team')
+- [Type](./Actor-Type.md 'MuseDotNet.Framework.Actor.Type')
 ### Methods
 - [AddInventoryItem(string, int)](./Actor-AddInventoryItem(string_int).md 'MuseDotNet.Framework.Actor.AddInventoryItem(string, int)')
 - [AddPlayerRelevancy(MuseDotNet.Framework.Player)](./Actor-AddPlayerRelevancy(Player).md 'MuseDotNet.Framework.Actor.AddPlayerRelevancy(MuseDotNet.Framework.Player)')

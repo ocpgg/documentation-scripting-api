@@ -2,10 +2,8 @@
 ## InteractionData Struct
 Represents data of an interaction  
 ```csharp
-public readonly struct InteractionData :
-System.IEquatable<MuseDotNet.Framework.InteractionData>
+public readonly struct InteractionData
 ```
-Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[InteractionData](./InteractionData.md 'MuseDotNet.Framework.InteractionData')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [Name](./InteractionData-Name.md 'MuseDotNet.Framework.InteractionData.Name')
 ### Methods

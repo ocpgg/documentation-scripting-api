@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Actor](./Actor.md 'MuseDotNet.Framework.Actor')
 ## Actor.TeleportTo(MuseDotNet.Framework.Actor) Method
-Attempts to teleport the actor to a destination actor  
+Teleports the actor to a destination actor  
 ```csharp
 public bool TeleportTo(MuseDotNet.Framework.Actor destinationActor);
 ```

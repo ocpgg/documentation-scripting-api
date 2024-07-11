@@ -2,10 +2,8 @@
 ## Player Struct
 Represents a player state that persists throughout a session  
 ```csharp
-public readonly struct Player :
-System.IEquatable<MuseDotNet.Framework.Player>
+public readonly struct Player
 ```
-Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Player](./Player.md 'MuseDotNet.Framework.Player')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')  
 ### Properties
 - [InitialBattleStars](./Player-InitialBattleStars.md 'MuseDotNet.Framework.Player.InitialBattleStars')
 - [Name](./Player-Name.md 'MuseDotNet.Framework.Player.Name')

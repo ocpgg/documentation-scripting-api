@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Actor](./Actor.md 'MuseDotNet.Framework.Actor')
 ## Actor.TryActivateAbilityWithTarget(string, MuseDotNet.Framework.Actor) Method
-Attempts to activate an ability with a target if the actor have been granted the ability  
+Activates an ability with a target if the actor have been granted the ability  
 ```csharp
 public bool TryActivateAbilityWithTarget(string tag, MuseDotNet.Framework.Actor target);
 ```

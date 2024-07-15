@@ -21,3 +21,7 @@ public enum ActorType
 `Volume` 3  
   
   
+<a name='ActorType-EnvironmentProp'></a>
+`EnvironmentProp` 4  
+  
+  

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Debug](./Debug.md 'MuseDotNet.Framework.Debug')
 ## Debug.Exception(System.Exception) Method
-Prints an exception message on the screen  
+Prints an exception  
 ```csharp
 public static void Exception(System.Exception exception);
 ```

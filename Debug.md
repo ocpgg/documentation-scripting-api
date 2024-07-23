@@ -8,5 +8,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### Methods
 - [Exception(System.Exception)](./Debug-Exception(Exception).md 'MuseDotNet.Framework.Debug.Exception(System.Exception)')
 - [GetLineNumber(int)](./Debug-GetLineNumber(int).md 'MuseDotNet.Framework.Debug.GetLineNumber(int)')
-- [Log(MuseDotNet.Framework.LogLevel, string)](./Debug-Log(LogLevel_string).md 'MuseDotNet.Framework.Debug.Log(MuseDotNet.Framework.LogLevel, string)')
-- [Log(string)](./Debug-Log(string).md 'MuseDotNet.Framework.Debug.Log(string)')
+- [Log(MuseDotNet.Framework.LogLevel, string, string, int)](./Debug-Log(LogLevel_string_string_int).md 'MuseDotNet.Framework.Debug.Log(MuseDotNet.Framework.LogLevel, string, string, int)')
+- [Log(string, string, int)](./Debug-Log(string_string_int).md 'MuseDotNet.Framework.Debug.Log(string, string, int)')

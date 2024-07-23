@@ -7,13 +7,13 @@ public enum LogLevel
 ### Fields
 <a name='LogLevel-Display'></a>
 `Display` 0  
-Logs are printed to console and log files  
+Logs are written to log files and the script debugger  
   
 <a name='LogLevel-Warning'></a>
 `Warning` 1  
-Logs are printed to console and log files with the yellow color  
+Logs are written to log files and the script debugger with the yellow color  
   
 <a name='LogLevel-Error'></a>
 `Error` 2  
-Logs are printed to console and log files with the red color  
+Logs are written to log files and the script debugger with the red color  
   

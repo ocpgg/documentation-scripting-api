@@ -7,7 +7,7 @@ public static void SendNotification(string formattedMessage, MuseDotNet.Framewor
 #### Parameters
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData_string)-formattedMessage'></a>
 `formattedMessage` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
-The formatted message that supports rich text  
+The formatted message that supports <a href="https://ocpgg.notion.site/Rich-text-20fa1636f65a47eebdda96231570dc1d" target="_blank">rich text</a>  
   
 <a name='MuseDotNet-Framework-Muse-SendNotification(string_MuseDotNet-Framework-NotificationScope_MuseDotNet-Framework-NotificationPriority_bool_MuseDotNet-Framework-Player_MuseDotNet-Framework-QuestData_string)-scope'></a>
 `scope` [NotificationScope](./NotificationScope.md 'MuseDotNet.Framework.NotificationScope')  

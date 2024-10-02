@@ -9,19 +9,23 @@ public enum ActorType
 `None` 0  
   
   
+<a name='ActorType-Character'></a>
+`Character` 1  
+  
+  
 <a name='ActorType-Spawner'></a>
-`Spawner` 1  
+`Spawner` 2  
   
   
 <a name='ActorType-PlayerStart'></a>
-`PlayerStart` 2  
+`PlayerStart` 3  
   
   
 <a name='ActorType-Volume'></a>
-`Volume` 3  
+`Volume` 4  
   
   
 <a name='ActorType-EnvironmentProp'></a>
-`EnvironmentProp` 4  
+`EnvironmentProp` 5  
   
   

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework')
 ## MuseObject Class
-The base class of reference types  
+The base class of object types  
 ```csharp
 public abstract class MuseObject
 ```

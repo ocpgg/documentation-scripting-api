@@ -2,6 +2,7 @@
 ### Classes
 - [Debug](./Debug.md 'MuseDotNet.Framework.Debug')
 - [Muse](./Muse.md 'MuseDotNet.Framework.Muse')
+- [MuseNode](./MuseNode.md 'MuseDotNet.Framework.MuseNode')
 - [MuseObject](./MuseObject.md 'MuseDotNet.Framework.MuseObject')
 - [Myth](./Myth.md 'MuseDotNet.Framework.Myth')
 - [PlayerStart](./PlayerStart.md 'MuseDotNet.Framework.PlayerStart')
@@ -25,6 +26,7 @@
 - [ITeam](./ITeam.md 'MuseDotNet.Framework.ITeam')
 ### Enums
 - [ActorType](./ActorType.md 'MuseDotNet.Framework.ActorType')
+- [EMNotificationType](./EMNotificationType.md 'MuseDotNet.Framework.EMNotificationType')
 - [InteractionType](./InteractionType.md 'MuseDotNet.Framework.InteractionType')
 - [LogLevel](./LogLevel.md 'MuseDotNet.Framework.LogLevel')
 - [MatchConditionGroup](./MatchConditionGroup.md 'MuseDotNet.Framework.MatchConditionGroup')

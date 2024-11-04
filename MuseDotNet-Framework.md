@@ -26,12 +26,12 @@
 - [ITeam](./ITeam.md 'MuseDotNet.Framework.ITeam')
 ### Enums
 - [ActorType](./ActorType.md 'MuseDotNet.Framework.ActorType')
-- [EMNotificationType](./EMNotificationType.md 'MuseDotNet.Framework.EMNotificationType')
 - [InteractionType](./InteractionType.md 'MuseDotNet.Framework.InteractionType')
 - [LogLevel](./LogLevel.md 'MuseDotNet.Framework.LogLevel')
 - [MatchConditionGroup](./MatchConditionGroup.md 'MuseDotNet.Framework.MatchConditionGroup')
 - [NotificationPriority](./NotificationPriority.md 'MuseDotNet.Framework.NotificationPriority')
 - [NotificationScope](./NotificationScope.md 'MuseDotNet.Framework.NotificationScope')
+- [NotificationType](./NotificationType.md 'MuseDotNet.Framework.NotificationType')
 - [QuestCancellationType](./QuestCancellationType.md 'MuseDotNet.Framework.QuestCancellationType')
 - [TeamAttitude](./TeamAttitude.md 'MuseDotNet.Framework.TeamAttitude')
 - [TeamAttitudeRequestsPolicy](./TeamAttitudeRequestsPolicy.md 'MuseDotNet.Framework.TeamAttitudeRequestsPolicy')

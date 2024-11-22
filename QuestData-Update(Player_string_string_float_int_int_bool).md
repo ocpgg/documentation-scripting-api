@@ -31,7 +31,7 @@ Seconds under something important happens in this quest; use `-1` to make no cha
   
 <a name='MuseDotNet-Framework-QuestData-Update(MuseDotNet-Framework-Player_string_string_float_int_int_bool)-trivial'></a>
 `trivial` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
-The indicator of significance of the quest progress update, when `true`, doesn't trigger animation in the quest log UI  
+If `true`, doesn't trigger animation in the quest log UI  
   
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

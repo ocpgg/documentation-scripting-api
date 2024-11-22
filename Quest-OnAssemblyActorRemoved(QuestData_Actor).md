@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnAssemblyActorRemoved(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Actor) Method
-A function that is called before a prefab assembly actor is removed from the world.  
+A function that is called before a prefab assembly actor is removed from the world  
 ```csharp
 protected virtual void OnAssemblyActorRemoved(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Actor actorBeingDestroyed);
 ```

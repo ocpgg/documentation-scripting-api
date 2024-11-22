@@ -12,8 +12,8 @@ Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/S
 - [IsSubsequent](./QuestData-IsSubsequent.md 'MuseDotNet.Framework.QuestData.IsSubsequent')
 ### Methods
 - [Cancel(MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestCancellationType)](./QuestData-Cancel(Player_QuestCancellationType).md 'MuseDotNet.Framework.QuestData.Cancel(MuseDotNet.Framework.Player, MuseDotNet.Framework.QuestCancellationType)')
-- [Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup)](./QuestData-Complete(Player_MatchConditionGroup).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup)')
-- [Complete(MuseDotNet.Framework.Player[])](./QuestData-Complete(Player--).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player[])')
+- [Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup, bool)](./QuestData-Complete(Player_MatchConditionGroup_bool).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup, bool)')
+- [Complete(MuseDotNet.Framework.Player[], bool)](./QuestData-Complete(Player--_bool).md 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player[], bool)')
 - [Deliver(MuseDotNet.Framework.Player)](./QuestData-Deliver(Player).md 'MuseDotNet.Framework.QuestData.Deliver(MuseDotNet.Framework.Player)')
 - [Equals(MuseDotNet.Framework.QuestData)](./QuestData-Equals(QuestData).md 'MuseDotNet.Framework.QuestData.Equals(MuseDotNet.Framework.QuestData)')
 - [Equals(object)](./QuestData-Equals(object).md 'MuseDotNet.Framework.QuestData.Equals(object)')

@@ -1,6 +1,6 @@
 ### [MuseDotNet.Framework](./MuseDotNet-Framework.md 'MuseDotNet.Framework').[Quest](./Quest.md 'MuseDotNet.Framework.Quest')
 ## Quest.OnAssemblyActorAdded(MuseDotNet.Framework.QuestData, MuseDotNet.Framework.Actor) Method
-A function that is called after a prefab assembly actor is added to the world.  
+A function that is called after a prefab assembly actor is added to the world  
 ```csharp
 protected virtual void OnAssemblyActorAdded(MuseDotNet.Framework.QuestData questData, MuseDotNet.Framework.Actor spawnedActor);
 ```

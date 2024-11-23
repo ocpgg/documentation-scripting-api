@@ -15,7 +15,7 @@ The group that will be affected by the match condition set for the quest
   
 <a name='MuseDotNet-Framework-QuestData-Complete(MuseDotNet-Framework-Player_MuseDotNet-Framework-MatchConditionGroup_bool)-canEndMatch'></a>
 `canEndMatch` [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
-If `true`, the match can be ended in accordance with the [MatchConditionGroup](./MatchConditionGroup.md 'MuseDotNet.Framework.MatchConditionGroup')  
+If `true`, the match can be ended in accordance with the [matchConditionGroup](#MuseDotNet-Framework-QuestData-Complete(MuseDotNet-Framework-Player_MuseDotNet-Framework-MatchConditionGroup_bool)-matchConditionGroup 'MuseDotNet.Framework.QuestData.Complete(MuseDotNet.Framework.Player, MuseDotNet.Framework.MatchConditionGroup, bool).matchConditionGroup')  
   
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
